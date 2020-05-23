@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".street"></activity>
+        <activity android:name=".pinkstreet"></activity>
+        <activity android:name=".pinkfood" />
+        <activity android:name=".delhifood" />
+        <activity android:name=".delhistreet" />
+        <activity android:name=".street" />
         <activity android:name=".market" />
         <activity android:name=".MainActivity">
             <intent-filter>

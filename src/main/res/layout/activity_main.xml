@@ -11,11 +11,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <Button
             android:id="@+id/street"
             android:layout_width="200dp"
             android:layout_height="100dp"
-            android:text="Explore Street Food"
+            android:text="Explore Agra Street Food"
            android:layout_marginTop="10dp"
             />
 
@@ -23,10 +24,42 @@
             android:id="@+id/market"
             android:layout_width="200dp"
             android:layout_height="100dp"
-            android:text="Explore Markets"
+            android:text="Explore agra Markets"
             android:layout_marginTop="10dp"
              />
+
+        <Button
+            android:id="@+id/pinkmarket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pink citys market" />
+
+        <Button
+            android:id="@+id/pinkfood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pink city street food" />
+
+        <Button
+            android:id="@+id/delhimarket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delhi market" />
+
+        <Button
+            android:id="@+id/delhifood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delhi street food" />
+
     </LinearLayout>
+
+
+
+
+
+
+
 
 
 
